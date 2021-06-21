@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:orientation="vertical"
+    android:paddingTop="50sp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:srcCompat="@mipmap/logo" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:background="@mipmap/create"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btnInspire"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="@mipmap/inspire"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btnMyNote"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/mynote"
+        android:onClick="onClick" />
+
+</LinearLayout>

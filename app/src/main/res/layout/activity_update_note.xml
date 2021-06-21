@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:orientation="vertical"
+    android:paddingLeft="10sp"
+    android:paddingTop="10sp"
+    android:paddingRight="10sp"
+    android:paddingBottom="10sp">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        app:srcCompat="@mipmap/rewrite_note" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제목" />
+
+    <EditText
+        android:id="@+id/etNewNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날짜" />
+
+    <EditText
+        android:id="@+id/etNewNoteDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="장소" />
+
+    <EditText
+        android:id="@+id/etNewNotePlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내용" />
+
+    <EditText
+        android:id="@+id/etNewNoteContent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnShareTwitter"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:background="@mipmap/twitter"
+            android:onClick="onClick"
+            android:paddingTop="10sp" />
+
+        <Button
+            android:id="@+id/btnUpdateNote"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/update"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/btnUpdateNoteClose"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/close"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+</LinearLayout>

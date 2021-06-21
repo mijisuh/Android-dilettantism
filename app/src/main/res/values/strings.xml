@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ma01_20160962</string>
+
+    <string name="api_culart_area">http://www.culture.go.kr/openapi/rest/publicperformancedisplays/area?rows=100&amp;sido=</string>
+    <string name="api_culart_realm">http://www.culture.go.kr/openapi/rest/publicperformancedisplays/realm?rows=100&amp;realmCode=</string>
+    <string name="api_culart_detail">http://www.culture.go.kr/openapi/rest/publicperformancedisplays/d/?seq=</string>
+
+    <string name="api_performingplace">http://www.culture.go.kr/openapi/rest/cultureartspaces/performingplace?rows=100&amp;keyword=</string>
+    <string name="api_artgallery">http://www.culture.go.kr/openapi/rest/cultureartspaces/artgallery?rows=100&amp;keyword=</string>
+    <string name="api_library">http://www.culture.go.kr/openapi/rest/cultureartspaces/library?rows=100&amp;keyword=</string>
+    <string name="api_museum">http://www.culture.go.kr/openapi/rest/cultureartspaces/museum?rows=100&amp;keyword=</string>
+    <string name="api_culartplace_detail">http://www.culture.go.kr/openapi/rest/cultureartspaces/d/?seq=</string>
+
+    <string name="servicekey_culart">KDZXFKBSUAurOtWm%2F9R7DD16FRo6XIhp4STIwgUYpQjhHFtAWv1XAG3NJ6ek6wiSaZZ8ZfxxU30eVSnLo5LIhw%3D%3D</string>
+    <string name="servicekey_culartplace">KDZXFKBSUAurOtWm%2F9R7DD16FRo6XIhp4STIwgUYpQjhHFtAWv1XAG3NJ6ek6wiSaZZ8ZfxxU30eVSnLo5LIhw%3D%3D</string>
+
+    <string name="api_class">https://openapi.naver.com/v1/search/shop.xml?display=50&amp;start=1&amp;sort=sim&amp;query=</string>
+
+    <string name="client_id">ErSb0M0L1AAlqZ9Z2Xp0</string>
+    <string name="client_secret">Od11_ocaX_</string>
+
+    <string name="google">AIzaSyBkpFPgwNUAr-G0M4YjfFBRDcZWPS--1DA</string>
+    <string name="api_key">AIzaSyByVEttW_0M2BxQunUeDFddGgbrnsqaiZ8</string>
+</resources>

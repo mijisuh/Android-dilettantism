@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        app:srcCompat="@mipmap/search_culartplace" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp">
+
+        <EditText
+            android:id="@+id/etCulartPlaceKeywd"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="관련 키워드를 입력하세요. (ex. 이름, 위치)"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnSearchCulartPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/ic_menu_search"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvCulartPlace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

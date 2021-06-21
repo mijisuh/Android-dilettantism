@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivCulartThumbnail"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:paddingLeft="10sp"
+            android:paddingTop="10sp"
+            android:paddingRight="10sp"
+            android:paddingBottom="10sp"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCulartTitle"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:gravity="center"
+                android:paddingTop="10sp"
+                android:paddingRight="20sp"
+                android:text="공연전시 명"
+                android:textAlignment="viewEnd"
+                android:textSize="14sp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingRight="20sp">
+
+                <TextView
+                    android:id="@+id/tvCulartStartdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30sp"
+                    android:gravity="center"
+                    android:text="시작날짜"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30sp"
+                    android:gravity="center"
+                    android:text=" - "
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvCulartEnddate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30sp"
+                    android:gravity="center"
+                    android:text="마지막날짜"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvCulartRealm"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:gravity="center|end"
+                    android:text="분류"
+                    android:textAlignment="viewEnd"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingRight="20sp">
+
+                <TextView
+                    android:id="@+id/tvCulartPlace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30sp"
+                    android:gravity="center"
+                    android:text="공연전시 명"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvCulartArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:gravity="center|end"
+                    android:text="지역"
+                    android:textAlignment="viewEnd" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:orientation="vertical"
+    android:paddingLeft="10sp"
+    android:paddingTop="10sp"
+    android:paddingRight="10sp"
+    android:paddingBottom="10sp">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상호명" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNearbyName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:background="@android:drawable/ic_menu_search"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전화번호" />
+
+    <TextView
+        android:id="@+id/tvNearbyTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주소" />
+
+    <TextView
+        android:id="@+id/tvNearbyAddr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="100sp"
+            android:layout_height="70sp"
+            android:layout_marginEnd="16dp"
+            android:background="@mipmap/close"
+            android:onClick="onClick"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </LinearLayout>
+
+</LinearLayout>

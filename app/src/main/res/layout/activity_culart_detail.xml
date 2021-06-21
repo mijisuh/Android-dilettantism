@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivCulartImg"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_gravity="center"
+                android:paddingBottom="10sp"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="100sp"
+                android:paddingRight="100sp">
+
+                <TextView
+                    android:id="@+id/tvCulartStartdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="시작날짜"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" - " />
+
+                <TextView
+                    android:id="@+id/tvCulartEnddate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="마지막날짜"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvCulartRealm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="분류"
+                    android:textAlignment="textEnd" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="50sp"
+                android:paddingRight="50sp">
+
+                <Button
+                    android:id="@+id/btnSearchCulartPlace"
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:background="@android:drawable/ic_menu_search"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/tvCulartPlace2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="장소"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvCulartTitle2"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:paddingLeft="30sp"
+                android:paddingRight="30sp"
+                android:text="공연전시 명"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tvCulartTel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="문의처"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tvCulartPrice"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:paddingLeft="50sp"
+                android:paddingRight="50sp"
+                android:text="티켓 요금"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <WebView
+                android:id="@+id/tvCulartContents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp">
+
+            </WebView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

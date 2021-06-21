@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10sp"
+    android:paddingTop="10sp"
+    android:paddingRight="10sp"
+    android:paddingBottom="10sp">
+
+    <TextView
+        android:id="@+id/tvNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10sp"
+        android:text="제목"
+        android:textAlignment="textStart"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10sp">
+
+        <TextView
+            android:id="@+id/tvNoteDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="날짜"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvNotePlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="장소"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNoteContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내용"
+        android:textSize="14sp" />
+
+</LinearLayout>
